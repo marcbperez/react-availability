@@ -5,6 +5,8 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.2.0 - 2018-04-06
+
 ### Added
 
   - Gradle build script and wrapper.
