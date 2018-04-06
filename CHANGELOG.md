@@ -5,6 +5,13 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.2.0 - 2018-04-06
+
+### Added
+
+  - Gradle build script and wrapper.
+  - Dockerfile and docker-compose manifest.
+
 ## 0.1.0 - 2018-04-05
 
 ### Added
