@@ -1,6 +1,6 @@
 {
   "name": "react-housekeep-availability",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
