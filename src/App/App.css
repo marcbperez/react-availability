@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.app-header input[type=text],
+.app-header input[type=date],
+.app-header input[type=number] {
+  border: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 5px;
+  height: 17px;
+}
+
+.app-header input[type=submit] {
+  margin-top: 15px;
+}
+
+.app-header label {
+  display: inline-block;
+  width: 145px;
+}
+
+.app-content {
+  padding: 10px 20px;
+}
