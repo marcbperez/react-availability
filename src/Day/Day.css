@@ -1,0 +1,11 @@
+.day {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.day h3 {
+  margin-bottom: 0;
+}
+
+.day .status {
+  margin-top: 0;
+}

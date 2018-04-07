@@ -1,0 +1,10 @@
+.slot {
+  border-top: 1px solid whitesmoke;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.slot a,
+.slot span {
+  padding-left: 20px;
+}
