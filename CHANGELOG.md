@@ -5,6 +5,13 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+### Added
+
+  - Package configuration file.
+  - Public folder with template and favicon.
+  - Application index and service.
+  - Application, day and slot components.
+
 ## 0.2.0 - 2018-04-06
 
 ### Added
