@@ -1,6 +1,6 @@
-# react-housekeep-availability
+# react-availability
 
-Housekeep availability search for the web in React.
+Availability search for the web in React.
 
 ## Installation
 
@@ -8,8 +8,8 @@ Start by downloading and building the project when necessary. The following
 commands will do the job on most Debian based Linux distributions.
 
 ```bash
-git clone https://github.com/marcbperez/react-housekeep-availability
-cd react-housekeep-availability
+git clone https://github.com/marcbperez/react-availability
+cd react-availability
 sudo ./gradlew
 ```
 
@@ -24,9 +24,11 @@ npm start
 ```
 
 To get and run a production build use the script below. The contents will be
-placed inside `build`.
+placed inside `build`. Tests can be executed via docker-compose (described in
+the section below) or executed manually with NPM and Jest.
 
 ```bash
+npm test
 npm build
 npm run build
 ```
@@ -85,7 +87,7 @@ This project is created by [marcbperez][author] and maintained by its
 This project is licensed under the [Apache License Version 2.0][license].
 
 [author]: https://marcbperez.github.io
-[issue-tracker]: https://github.com/marcbperez/react-housekeep-availability/issues
+[issue-tracker]: https://github.com/marcbperez/react-availability/issues
 [editorconfig]: .editorconfig
 [changelog]: CHANGELOG.md
 [license]: LICENSE
