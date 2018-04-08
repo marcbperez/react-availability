@@ -1,8 +1,9 @@
 {
-  "name": "react-housekeep-availability",
-  "version": "0.3.0",
+  "name": "react-availability",
+  "version": "0.3.1",
   "private": true,
   "dependencies": {
+    "cross-fetch": "^2.1.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

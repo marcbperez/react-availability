@@ -5,6 +5,15 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.3.1 - 2018-04-08
+
+### Changed
+
+  - Project name and README information.
+  - Service class to a cleaner version.
+  - Fetch for cross-fetch package.
+  - Gradle wrapper for this project.
+
 ## 0.3.0 - 2018-04-07
 
 ### Added
