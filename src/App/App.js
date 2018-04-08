@@ -83,7 +83,7 @@ class App extends Component {
     return (
       <div>
         <div className="app-header">
-          <h2>Housekeep Availability</h2>
+          <h2>React Availability</h2>
           <form onSubmit={this.searchSubmit}>
             <div>
               <label>Week beginning</label>

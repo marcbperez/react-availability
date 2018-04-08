@@ -1,3 +1,5 @@
+import fetch from 'cross-fetch';
+
 /**
  * Application service
  */
@@ -61,23 +63,29 @@ class Service {
   createBooking(callback, day, startTime, endTime, visitDuration, propertyId) {
     let url = this.baseUrl + '/book/';
 
+    /* Prepare fetch headers. */
+    var headers = {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    }
+
+    /* Define request body. */
+    var body = {
+      'day': day,
+      'startTime': {
+        'start': startTime,
+        'end': endTime
+      },
+      'visitDuration': visitDuration,
+      'propertyId': propertyId
+    }
+
     /* Prepare fetch parameters. */
     var init = {
       method: 'POST',
       cache: 'default',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        'day': day,
-        'startTime': {
-          'start': startTime,
-          'end': endTime
-        },
-        'visitDuration': visitDuration,
-        'propertyId': propertyId
-      })
+      headers: headers,
+      body: JSON.stringify(body)
     };
 
     /* Fetch data and send to callback. */
