@@ -1,6 +1,6 @@
 {
   "name": "react-availability",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": true,
   "dependencies": {
     "cross-fetch": "^2.1.0",
