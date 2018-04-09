@@ -107,13 +107,13 @@ class App extends Component {
           </form>
         </div>
         <div className="app-content">
-          {this.state.days.map(function(entry, key) {
+          {this.state.days.map(function(day, key) {
             return (
               <Day
                 key={key}
                 service={service}
-                day={entry.day}
-                startTimes={entry.startTimes}
+                day={day.day}
+                startTimes={day.startTimes}
                 visitDuration={visitDuration}
                 propertyId={propertyId}
               />
