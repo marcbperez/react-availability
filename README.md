@@ -15,9 +15,8 @@ sudo ./gradlew
 
 ## Usage
 
-Change the `token` inside `src/index.js` and run the following script to start a
-development server. After this the application will be available at
-`http://127.0.0.1:3000`.
+Run the following script to start a development server. After this the
+application will be available at `http://127.0.0.1:3000`.
 
 ```bash
 npm start
